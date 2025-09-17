@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide CarouselController;
 
-import 'package:carousel_slider/carousel_slider.dart' as carousel_slider;
+import 'package:carousel_slider/carousel_slider.dart';
 
 class ECommerceHome extends StatefulWidget {
   const ECommerceHome({super.key});
@@ -38,7 +38,7 @@ style: TextStyle(color: const Color(0xFF6B7280)))
 SizedBox(height: 24.0),
 Center(),
 
-            carousel_slider.CarouselSlider(
+            CarouselSlider(
                 items: [Container(
                     margin: const EdgeInsets.symmetric(horizontal: 5.0),
                     child: ClipRRect(
@@ -60,7 +60,7 @@ Container(
                         child: Image.network('https://picsum.photos/400/200?random=3', fit: BoxFit.cover, width: 1000.0),
                     ),
                 )],
-                options: carousel_slider.CarouselOptions(height: 200.0, autoPlay: true, enlargeCenterPage: true, viewportFraction: 0.8),
+                options: CarouselOptions(height: 200.0, autoPlay: true, enlargeCenterPage: true, viewportFraction: 0.8),
             )
         ,
 Wrap(spacing: 16.0,
