@@ -15,7 +15,7 @@ class _ECommerceHomeState extends State<ECommerceHome> {
   Widget build(BuildContext context) {
     return Scaffold(
 backgroundColor: const Color(0xFFF8F9FA),
-appBar: AppBar(title: const Text('Discover'),
+appBar: AppBar(title: const Text('Catalog'),
 backgroundColor: const Color(0xFFFFFFFF),
 elevation: 0,
 actions: [IconButton(icon: const Icon(Icons.notifications),

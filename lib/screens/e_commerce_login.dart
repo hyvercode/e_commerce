@@ -24,12 +24,20 @@ fillColor: const Color(0xFFF3F4F6),
 border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
                 borderSide: BorderSide.none,
+            ),
+focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: BorderSide.none,
             ))),
 SizedBox(height: 16.0),
 TextField(decoration: InputDecoration(hintText: 'Password',
 filled: true,
 fillColor: const Color(0xFFF3F4F6),
 border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: BorderSide.none,
+            ),
+focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
                 borderSide: BorderSide.none,
             )),

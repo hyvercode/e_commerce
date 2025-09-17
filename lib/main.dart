@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'E-Commerce',
       theme: appTheme,
-      initialRoute: '/e-commerce-profile',
+      initialRoute: '/e-commerce-splash',
       routes: {
         '/e-commerce-splash': (context) => const ECommerceSplash(),
         '/e-commerce-login': (context) => const ECommerceLogin(),
