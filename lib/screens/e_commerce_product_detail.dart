@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 
+
 class ECommerceProductDetail extends StatelessWidget {
   const ECommerceProductDetail({super.key});
 
@@ -11,6 +12,7 @@ backgroundColor: const Color(0xFFFFFFFF),
 appBar: AppBar(backgroundColor: const Color(0xFFFFFFFF),
 elevation: 0,
 actions: [IconButton(icon: const Icon(Icons.favorite),
+color: const Color(0xFF1E3A8A),
 onPressed: () {})]),
 body: Column(children: [
 Expanded(child: SingleChildScrollView(child: Column(children: [

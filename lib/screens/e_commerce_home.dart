@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:carousel_slider/carousel_slider.dart';
 
 class ECommerceHome extends StatefulWidget {
   const ECommerceHome({super.key});
@@ -35,6 +36,33 @@ Text('Search products...',
 style: TextStyle(color: const Color(0xFF6B7280)))
 ])),
 SizedBox(height: 24.0),
+Center(),
+
+            CarouselSlider(
+                items: [Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 5.0),
+                    child: ClipRRect(
+                        borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                        child: Image.network('https://picsum.photos/400/200?random=1', fit: BoxFit.cover, width: 1000.0),
+                    ),
+                ),
+Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 5.0),
+                    child: ClipRRect(
+                        borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                        child: Image.network('https://picsum.photos/400/200?random=2', fit: BoxFit.cover, width: 1000.0),
+                    ),
+                ),
+Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 5.0),
+                    child: ClipRRect(
+                        borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                        child: Image.network('https://picsum.photos/400/200?random=3', fit: BoxFit.cover, width: 1000.0),
+                    ),
+                )],
+                options: CarouselOptions(height: 200.0, autoPlay: true, enlargeCenterPage: true, viewportFraction: 0.8),
+            )
+        ,
 Wrap(spacing: 16.0,
 runSpacing: 16.0,
 children: [

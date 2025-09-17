@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 
+
 class ECommerceLogin extends StatelessWidget {
   const ECommerceLogin({super.key});
 
@@ -28,7 +29,8 @@ border: OutlineInputBorder(
 focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
                 borderSide: BorderSide.none,
-            ))),
+            )),
+style: const TextStyle(color: const Color(0xFF1E3A8A))),
 SizedBox(height: 16.0),
 TextField(decoration: InputDecoration(hintText: 'Password',
 filled: true,
@@ -41,7 +43,8 @@ focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12),
                 borderSide: BorderSide.none,
             )),
-obscureText: true),
+obscureText: true,
+style: const TextStyle(color: const Color(0xFF1E3A8A))),
 SizedBox(height: 32.0),
 ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF1E3A8A), fixedSize: const Size(double.infinity, 52), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0))),
 onPressed: () => Navigator.pushNamed(context, '/e-commerce-home'),
