@@ -49,7 +49,7 @@ leading: Icon(Icons.settings))
 ]))),
 SizedBox(height: 24.0),
 ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFFFEE2E2), foregroundColor: const Color(0xFFDC2626)),
-onPressed: () {},
+onPressed: () => Navigator.pushNamed(context, '/e-commerce-login'),
 child: Text('Logout'))
 ])
 ]),

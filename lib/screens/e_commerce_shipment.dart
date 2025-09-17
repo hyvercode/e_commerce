@@ -47,7 +47,7 @@ border: OutlineInputBorder(
             ))),
 SizedBox(height: 32.0),
 ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF1E3A8A), fixedSize: const Size(double.infinity, 52), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0))),
-onPressed: () {},
+onPressed: () => Navigator.pushNamed(context, '/e-commerce-payment'),
 child: Text('Continue to Payment'))
 ])
 ]),

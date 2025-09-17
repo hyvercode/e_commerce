@@ -52,7 +52,7 @@ style: TextStyle(fontSize: 18.0, color: const Color(0xFF6B7280), fontWeight: Fon
 ]),
 SizedBox(height: 16.0),
 ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF1E3A8A), fixedSize: const Size(double.infinity, 52), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0))),
-onPressed: () {},
+onPressed: () => Navigator.pushNamed(context, '/e-commerce-shipment'),
 child: Text('Proceed to Checkout'))
 ])))
 ]),
