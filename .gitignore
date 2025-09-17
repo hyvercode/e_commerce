@@ -1,0 +1,45 @@
+# Miscellaneous
+*.class
+*.as
+*.bat
+*.log
+*.jar
+*.pid
+*.seed
+*.iml
+
+# Mobile-specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.xcconfig
+/ios/Flutter/pod_plugins.xcconfig
+/ios/Flutter/Generated.xcconfig
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/ServiceDefinitions.json
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+/android/key.properties
+/android/local.properties
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+
+# IDE-specific
+.idea/
+.vscode/
+
+# Generated
+build/
+.dart_tool/
+pubspec.lock
+
+# Hyver Studio project file
+*.hcfs
