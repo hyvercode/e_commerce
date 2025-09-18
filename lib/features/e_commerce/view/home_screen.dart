@@ -107,6 +107,36 @@ GestureDetector(onTap: () => Navigator.pushNamed(context, '/e-commerce-product-d
 child: Padding(padding: EdgeInsets.all(0.0),
 child: Column(children: [
 ClipRRect(borderRadius: BorderRadius.circular(12.0),
+child: Image.network('https://picsum.photos/300/300?random=1',
+height: 150.0)),
+Padding(padding: EdgeInsets.all(12.0),
+child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+children: [
+Text('Classic Watch',
+style: TextStyle(color: const Color(0xFF6B7280), fontWeight: FontWeight.bold)),
+Text('\$150.00',
+style: TextStyle(color: const Color(0xFF6B7280)))
+]))
+])))),
+GestureDetector(onTap: () => Navigator.pushNamed(context, '/e-commerce-product-detail'), child: Card(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+child: Padding(padding: EdgeInsets.all(0.0),
+child: Column(children: [
+ClipRRect(borderRadius: BorderRadius.circular(12.0),
+child: Image.network('https://picsum.photos/300/300?random=2',
+height: 150.0)),
+Padding(padding: EdgeInsets.all(12.0),
+child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+children: [
+Text('Leather Wallet',
+style: TextStyle(color: const Color(0xFF6B7280), fontWeight: FontWeight.bold)),
+Text('\$75.00',
+style: TextStyle(color: const Color(0xFF6B7280)))
+]))
+])))),
+GestureDetector(onTap: () => Navigator.pushNamed(context, '/e-commerce-product-detail'), child: Card(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+child: Padding(padding: EdgeInsets.all(0.0),
+child: Column(children: [
+ClipRRect(borderRadius: BorderRadius.circular(12.0),
 child: Image.network('https://picsum.photos/300/300?random=2',
 height: 150.0)),
 Padding(padding: EdgeInsets.all(12.0),
