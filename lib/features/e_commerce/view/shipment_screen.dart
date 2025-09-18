@@ -10,7 +10,7 @@ class ECommerceShipment extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 backgroundColor: const Color(0xFFFFFFFF),
-appBar: AppBar(title: const Text('Shipping Address'),
+appBar: AppBar(title: const Text('Shipping'),
 backgroundColor: const Color(0xFFFFFFFF),
 elevation: 0),
 body: ListView(padding: EdgeInsets.all(16.0),

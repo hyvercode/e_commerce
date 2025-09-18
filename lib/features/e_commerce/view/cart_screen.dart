@@ -17,7 +17,7 @@ class _ECommerceCartState extends State<ECommerceCart> {
   Widget build(BuildContext context) {
     return Scaffold(
 backgroundColor: const Color(0xFFF8F9FA),
-appBar: AppBar(title: const Text('My Cart'),
+appBar: AppBar(title: const Text('Cart'),
 backgroundColor: const Color(0xFFFFFFFF),
 elevation: 0),
 body: Column(children: [
@@ -31,7 +31,7 @@ child: ListTile(title: const Text('Classic Watch'),
 subtitle: const Text('\$150.00'),
 tileColor: const Color(0xFFFFFFFF),
 textColor: const Color(0xFF1E3A8A),
-iconColor: const Color(0xFF1E3A8A),
+iconColor: const Color(0xFF6B7280),
 leading: ClipRRect(borderRadius: BorderRadius.circular(8.0),
 child: Image.network('https://picsum.photos/100/100?random=1',
 width: 60.0,

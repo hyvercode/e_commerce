@@ -17,7 +17,7 @@ class _ECommerceOrderHistoryState extends State<ECommerceOrderHistory> {
   Widget build(BuildContext context) {
     return Scaffold(
 backgroundColor: const Color(0xFFF8F9FA),
-appBar: AppBar(title: const Text('My Orders'),
+appBar: AppBar(title: const Text('Orders'),
 backgroundColor: const Color(0xFFFFFFFF),
 elevation: 0),
 body: ListView(padding: EdgeInsets.all(16.0),

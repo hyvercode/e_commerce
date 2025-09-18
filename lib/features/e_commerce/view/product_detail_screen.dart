@@ -12,8 +12,9 @@ class ECommerceProductDetail extends StatelessWidget {
 backgroundColor: const Color(0xFFFFFFFF),
 appBar: AppBar(backgroundColor: const Color(0xFFFFFFFF),
 elevation: 0,
+title: const Text('Detail'),
 actions: [IconButton(icon: const Icon(Icons.favorite),
-color: const Color(0xFF1E3A8A),
+color: const Color(0xFF6B7280),
 onPressed: () {})]),
 body: Column(children: [
 Expanded(child: SingleChildScrollView(child: Column(children: [

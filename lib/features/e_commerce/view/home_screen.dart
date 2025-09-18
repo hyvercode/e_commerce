@@ -22,7 +22,7 @@ appBar: AppBar(title: const Text('Catalog'),
 backgroundColor: const Color(0xFFFFFFFF),
 elevation: 0,
 actions: [IconButton(icon: const Icon(Icons.notifications),
-color: const Color(0xFF1E3A8A),
+color: const Color(0xFF6B7280),
 onPressed: () {})]),
 body: ListView(padding: EdgeInsets.all(16.0),
 children: [

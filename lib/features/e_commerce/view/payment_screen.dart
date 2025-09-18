@@ -10,9 +10,10 @@ class ECommercePayment extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 backgroundColor: const Color(0xFFFFFFFF),
-appBar: AppBar(title: const Text('Payment Details'),
+appBar: AppBar(title: const Text('Payment'),
 backgroundColor: const Color(0xFFFFFFFF),
-elevation: 0),
+elevation: 0,
+foregroundColor: const Color(0xFF000000)),
 body: ListView(padding: EdgeInsets.all(16.0),
 children: [
 Column(children: [
