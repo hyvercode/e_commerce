@@ -22,11 +22,10 @@ flutter run
 
 ## Project Structure
 
--   `lib/main.dart`: The entry point of your application. It sets up the MaterialApp, theme, and routes.
--   `lib/screens/`: Contains all the individual screen widgets.
-
--   `lib/theme.dart`: Defines the application's visual theme (colors, fonts).
--   `pubspec.yaml`: Manages the project's dependencies and assets.
+-   `lib/main.dart`: The entry point of your application.
+-   `lib/routes.dart`: Defines the application's routes and navigation.
+-   `lib/core/`: Contains shared code like themes, widgets, and utilities.
+-   `lib/features/`: Contains the different features of your application, each with its own model, view, and viewmodel.
 
 
 ---
