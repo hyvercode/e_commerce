@@ -11,7 +11,7 @@ import 'features/e_commerce/view/order_history_screen.dart';
 import 'features/e_commerce/view/profile_screen.dart';
 
 class AppRoutes {
-  static const String initialRoute = '/e-commerce-home';
+  static const String initialRoute = '/e-commerce-login';
 
   static Map<String, WidgetBuilder> get routes => {
         '/e-commerce-splash': (context) => const ECommerceSplash(),
